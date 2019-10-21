@@ -1,0 +1,12 @@
+// testing schemas
+
+message Animal {
+  required float id = 1;
+  required string name = 2;
+  repeated Cat cat = 3;
+}
+
+message Cat {
+  required float id = 1;
+  required string name = 2;
+}
